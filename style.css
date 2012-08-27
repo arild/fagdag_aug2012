@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+section.center {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	height: 700px;
+	width: 900px;
+}
