@@ -100,9 +100,8 @@ section ul {
 	font-size: 25px;
 }
 
-#resources #footer {
+#resources #footer a {
 	border-top: 1px solid white;
-	margin-top: 50px;
 	padding-left: 200px;
 	padding-right: 200px;
 }
