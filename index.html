@@ -4,11 +4,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>reveal.js - HTML5 Presentations</title>
-
-<meta name="description"
-	content="An easy to use CSS 3D slideshow tool for quickly creating good looking HTML presentations.">
-<meta name="author" content="Hakim El Hattab">
+<title>Video streaming on the Web</title>
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style"
@@ -332,7 +328,10 @@
 
 			<section>
 				<h3>Current codec support</h3>
-				<img src="img/html5_video_codec_support.png">
+				<a href="http://en.wikipedia.org/wiki/HTML5_video#Browser_support">
+					<img src="img/html5_video_codec_support.png">
+				</a>
+				<p style="font-size: 30px;">retrieved Aug. 28, 2012 </p>
 				<aside class="notes">
 					* Clarify "codec" vs "container"
 					* Ogg Theroa out of the battle: Lacks quality and hardware acceleration
@@ -364,6 +363,8 @@
 			
 			<section>
 				<h2>Adaptive streaming</h2>
+				<br>
+				<p class="fragment">Not supported in HTML5 video</p>	
 				<br>
 				<p class="fragment">Dynamically adapt video stream to ensure a good user experience</p>
 				<br>
@@ -407,6 +408,11 @@
 	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000
 	http://example.com/hi.m3u8
 				</code></pre>
+			</section>
+
+			<section>
+				<img style="margin: 0;" src="img/flash_player_logo.jpg">
+				<p style="font-size: 200px; padding-top: 100px;">?</p>
 			</section>
 
 			<section>
@@ -475,15 +481,17 @@
 			<section>
 				<section>
 					<h3>Video Archive at Norwegian Research Council</h3>
-					<iframe width="100%" height="500px"
-						src="http://www.forskningsradet.no/no/Videoarkiv/1247126513419"></iframe>
+					<a href="http://www.forskningsradet.no/no/Videoarkiv/1247126513419">
+						<img src="img/video_archive_desktop.png" height="700px" />
+					</a>
 				</section>
 
 				<section>
 					<h3>Mobile version</h3>
-					<iframe width="100%" height="500px"
-						src="http://www.forskningsradet.no/servlet/Satellite?pagename=ForskningsradetNorsk%2FMobileSectionVideoArchive
-	"></iframe>
+                                        <a href="http://www.forskningsradet.no/servlet/Satellite?pagename=ForskningsradetNorsk%2FMobileSectionVideoArchive">
+                                                <img src="img/video_archive_mobile.png" height="700px" />
+                                        </a>
+
 				</section>
 			</section>
 
@@ -558,7 +566,7 @@
 						<div id="links">
 							<a href="http://transitioning.to/2012/01/the-world-of-pain-that-is-html5-video/" >The World of Pain that is HTML5 Video</a>
 							<p>January, 2012</p>
-							<a href="http://transitioning.to/2012/01/the-world-of-pain-that-is-html5-video/" >Solving HTML5 Video Problems with Adaptive Streaming</a>
+							<a href="http://transitioning.to/2012/03/solving-html5-video-problems-with-adaptive-streaming/" >Solving HTML5 Video Problems with Adaptive Streaming</a>
 							<p>March, 2012</p>
 						</div>
 					</div>
@@ -574,8 +582,8 @@
 				<p style="font-size: 300px;">?</p>
 				<div style="padding-top: 200px;">
 				<p>Presentation available at:</p>
-				<a href="https://github.com/arild/fagdag_aug2012/index.html">
-					github.com/arild/fagdag_aug2012/index.html
+				<a href="arild.github.com/fagdag_aug2012/index.html">
+					arild.github.com/fagdag_aug2012
 				</a>
 				</div>
 
